@@ -11,7 +11,7 @@ name = "joco-site"
 default_platform = "web"
 
 # Web `build` & `serve` dist path
-out_dir = "dist"
+out_dir = "docs"
 
 # resource (static) file folder
 asset_dir = "public"
