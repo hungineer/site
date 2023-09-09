@@ -13,9 +13,13 @@ pub fn App(cx: Scope) -> Element {
 #[rustfmt::skip]
 pub enum Route {
     #[layout(Wrapper)]
-        #[route("/")]
+        #[nest("/")]
+        #[redirect("/about", || Route::About  {})]
+        #[redirect("/", || Route::Home {})]
+        #[end_nest]
+        #[route("/site")]
         Home { },
-        #[route("/about")]
+        #[route("/site/about")]
         About {},
 }
 

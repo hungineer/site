@@ -17,7 +17,6 @@ module.exports = {
     },
     extend: {
       colors: {
-      	'blueee': '#1fb6ff',
       },
     },
   },

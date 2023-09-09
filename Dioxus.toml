@@ -1,5 +1,7 @@
 [application]
 
+base_path = "site"
+
 # dioxus project name
 name = "joco-site"
 
@@ -17,7 +19,7 @@ asset_dir = "public"
 [web.app]
 
 # HTML title tag content
-title = "My personal page"
+title = "Joco's site"
 
 index_on_404 = true
 
@@ -29,7 +31,7 @@ watch_path = ["src", "public"]
 [web.resource]
 
 # CSS style file
-style = ["public/tailwind.css"]
+style = ["tailwind.css"]
 
 # Javascript code file
 script = []
